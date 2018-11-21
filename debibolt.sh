@@ -42,7 +42,7 @@ else
   color_ram=${color_green}
 fi
 
-# get storage
+# get SD card storage OLD SECTION USED ON RASPiBOLT TO CHECK SD CARD
 #sd_free_ratio=$(printf "%d" "$(df -h | grep "/$" | awk '{ print $4/$2*100 }')") 2>/dev/null
 #sd=$(printf "%s (%s%%)" "$(df -h | grep '/$' | awk '{ print $4 }')" "${sd_free_ratio}")
 #if [ ${sd_free_ratio} -lt 10 ]; then
